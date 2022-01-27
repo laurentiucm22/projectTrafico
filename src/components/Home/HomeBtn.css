@@ -1,0 +1,28 @@
+.home-btn__container {
+  padding-top: 5.7em;
+}
+.test {
+  display: flex;
+}
+.home-btn {
+  text-decoration: none;
+  background-color: #ee4d47;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--clr-primary);
+  border-radius: 0.313em;
+  padding: 1em 2em;
+  font-family: var(--ff-rubik);
+  transition: background-color 200ms ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.home-btn:hover {
+  background-color: #aa3734;
+  transition: background-color 200ms ease-in-out;
+}
+
+.btn-arrow {
+  margin-left: 1em;
+}

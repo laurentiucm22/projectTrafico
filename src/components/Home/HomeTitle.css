@@ -1,0 +1,12 @@
+.title-container {
+  max-width: 50%;
+  padding-top: 8em;
+}
+
+.title {
+  font-family: var(--ff-dm);
+  color: var(--clr-primary);
+  font-size: 6.25rem;
+  font-weight: 400;
+  line-height: 100%;
+}
