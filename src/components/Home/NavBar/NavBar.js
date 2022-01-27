@@ -1,9 +1,9 @@
 import React from "react";
 import ContactBtn from "./ContactBtn";
 import Logo from "./Logo";
+import MobileNav from "./MobileNav";
 import Nav from "./Nav";
 import "./NavBar.css";
-import { FaBars } from "react-icons/fa";
 
 const NavBar = () => {
   return (
@@ -11,8 +11,8 @@ const NavBar = () => {
       <div className="navigation content">
         <Logo />
         <Nav />
-        <FaBars className="mobile-menu" />
         <ContactBtn />
+        <MobileNav />
       </div>
     </div>
   );

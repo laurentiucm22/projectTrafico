@@ -1,0 +1,16 @@
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .mobile-menu__container {
+    display: flex;
+    padding-right: 1em;
+  }
+  .mobile-menu {
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+  }
+}

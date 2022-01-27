@@ -1,3 +1,16 @@
 .car-container {
   padding-top: 15em;
+  /* background-color: green; */
+}
+
+@media (max-width: 1100px) {
+  .car-container {
+    padding-top: 33em;
+  }
+}
+
+@media (max-width: 800px) {
+  .car-container {
+    padding-top: 21em;
+  }
 }

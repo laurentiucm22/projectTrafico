@@ -1,5 +1,5 @@
 .title-container {
-  max-width: 50%;
+  width: 50%;
   padding-top: 8em;
 }
 
@@ -9,4 +9,10 @@
   font-size: 6.25rem;
   font-weight: 400;
   line-height: 100%;
+}
+
+@media (max-width: 1600px) {
+  .title-container {
+    width: 100%;
+  }
 }

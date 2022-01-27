@@ -1,0 +1,42 @@
+.col-one {
+  padding-top: 5em;
+}
+.about-title {
+  color: #ee4d47;
+  font-size: 1.5rem;
+  font-family: var(--ff-rubik);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 2em;
+}
+
+.row-one__description {
+  color: var(--clr-grey);
+  font-family: var(--ff-rubik);
+  font-weight: 300;
+  font-size: 1.125rem;
+  max-width: 400px;
+  line-height: 2.5rem;
+  padding-bottom: 3.7em;
+}
+
+.row-two {
+  width: 90%;
+}
+.card {
+  display: flex;
+}
+.span-red {
+  width: 1.3em;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #ed4d47;
+}
+.row-two__description {
+  font-family: var(--ff-rubik);
+  font-weight: 500;
+  font-size: 1.5rem;
+  background-color: #fcddd4b0;
+  line-height: 2.25rem;
+  padding: 1.5em 1.5em;
+}

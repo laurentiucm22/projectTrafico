@@ -21,3 +21,9 @@
   font-weight: 100;
   font-family: var(--ff-dm);
 }
+
+@media (max-width: 1100px) {
+  .logo-container {
+    padding-top: 0;
+  }
+}

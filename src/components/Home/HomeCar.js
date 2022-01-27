@@ -13,7 +13,7 @@ const HomeCar = () => {
   return (
     <div className="container">
       <div className="car-container">
-        <img data-aos="fade-right" data-aos-duration="1000" src={Car} />
+        <img data-aos="fade-right" data-aos-duration="1500" src={Car} />
       </div>
     </div>
   );

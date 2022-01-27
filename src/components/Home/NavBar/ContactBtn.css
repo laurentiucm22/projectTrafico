@@ -22,3 +22,9 @@
   background-color: #aa3734;
   transition: background-color 200ms ease-in-out;
 }
+
+@media (max-width: 1100px) {
+  .c-btn {
+    display: none;
+  }
+}
