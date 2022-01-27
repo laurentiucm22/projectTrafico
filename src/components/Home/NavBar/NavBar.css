@@ -1,0 +1,11 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 2em 0;
+  white-space: nowrap;
+  /* background-color: green; */
+}
+
+.mobile-menu {
+  display: none;
+}

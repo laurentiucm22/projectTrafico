@@ -1,0 +1,24 @@
+.c-btn {
+  display: flex;
+  align-items: center;
+  flex: 0 1 auto;
+  padding-right: 1em;
+}
+
+.contact-btn {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(--ff-rubik);
+  color: var(--clr-primary);
+  text-transform: uppercase;
+  background-color: #ee4d47;
+  padding: 1em 2em;
+  border-radius: 0.313em;
+  transition: background-color 200ms ease-in-out;
+}
+
+.contact-btn:hover {
+  background-color: #c55450;
+  transition: background-color 200ms ease-in-out;
+}

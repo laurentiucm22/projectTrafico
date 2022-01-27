@@ -3,7 +3,7 @@
 
 :root {
   /* Font family */
-  --ff-rubik: ;
+  --ff-rubik: "Rubik", sans-serif;
   --ff-dm: "DM Serif Display", serif;
 
   /* Text color */
@@ -20,4 +20,13 @@
 
 body {
   margin: 0;
+}
+
+.container {
+  width: 100%;
+  /* background-color: green; */
+}
+.content {
+  width: 70%;
+  margin: 0 auto;
 }

@@ -1,0 +1,27 @@
+.nav {
+  flex: 1 1 auto;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-items {
+  list-style: none;
+  padding-right: 8em;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: var(--clr-primary);
+  font-size: 1rem;
+  font-family: var(--ff-rubik);
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 0.125em;
+}
+
+.nav-links:hover {
+  border-bottom: 2px solid white;
+}

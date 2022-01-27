@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "../components/Home/Header";
+import NavBar from "../components/Home/NavBar/NavBar";
 
 const HomePage = () => {
   return (
-    <div>
-      <Header />
-    </div>
+    <Header>
+      <NavBar />
+    </Header>
   );
 };
 

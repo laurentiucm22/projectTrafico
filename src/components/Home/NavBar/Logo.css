@@ -1,0 +1,23 @@
+.logo-container {
+  display: flex;
+  padding-top: 1em;
+}
+.rectangle-container {
+  display: flex;
+  flex: 1 1 auto;
+  margin-right: 1.125em;
+}
+.rectangle-up {
+  align-self: flex-start;
+}
+.rectangle-down {
+  align-self: flex-end;
+}
+.logo-title {
+  font-size: 2em;
+  padding: 0.175em 0;
+  color: var(--clr-primary);
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: var(--ff-dm);
+}
