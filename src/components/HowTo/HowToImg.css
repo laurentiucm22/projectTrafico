@@ -1,3 +1,8 @@
 .second-img {
-  margin-left: 4em;
+  margin-left: 5em;
+}
+@media (max-width: 1200px) {
+  .second-img {
+    margin-left: 2em;
+  }
 }
