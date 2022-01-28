@@ -1,0 +1,74 @@
+.faqs-desc__container {
+  width: 100%;
+  position: relative;
+}
+
+.accent-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.accent-div__right {
+  width: 70%;
+  padding-top: 100em;
+  background-color: #fdede8;
+  border-top-left-radius: 10em;
+}
+
+/* Description and Image containers */
+.cols-container {
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding-top: 8em;
+}
+.description-and__img {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Title and description */
+.faqs-title {
+  font-family: var(--ff-rubik);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: var(--clr-accent);
+  font-weight: 700;
+  padding-top: 6em;
+  padding-bottom: 2em;
+}
+.faqs-description {
+  font-family: var(--ff-dm);
+  font-size: 3rem;
+  line-height: 4.2rem;
+  color: var(--clr-grey);
+  font-weight: 400;
+  max-width: 500px;
+}
+
+@media (max-width: 1100px) {
+  .description-and__img {
+    flex-direction: column;
+  }
+  .third-img {
+    width: 100%;
+  }
+  .faqs-title {
+    padding-top: 2em;
+  }
+  .col-two__faqs {
+    padding-top: 5em;
+  }
+  .third-img {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .faqs-description {
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+  }
+}

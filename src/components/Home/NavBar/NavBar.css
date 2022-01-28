@@ -3,6 +3,8 @@
   align-items: center;
   padding: 2em 0;
   white-space: nowrap;
+  z-index: 99;
+  position: relative;
 }
 
 @media (max-width: 1100px) {

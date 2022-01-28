@@ -4,17 +4,17 @@ import "./Nav.css";
 const Nav = () => {
   const MenuItems = [
     {
-      title: "About",
+      pages: "About",
       url: "#about",
       clsName: "nav-links",
     },
     {
-      title: "How To",
+      pages: "How To",
       url: "#how-to",
       clsName: "nav-links",
     },
     {
-      title: "FAQS",
+      pages: "FAQS",
       url: "#faqs",
       clsName: "nav-links",
     },
@@ -26,7 +26,7 @@ const Nav = () => {
           return (
             <li className="nav-items" key={index}>
               <a className={item.clsName} href={item.url}>
-                {item.title}
+                {item.pages}
               </a>
             </li>
           );

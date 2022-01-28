@@ -20,6 +20,7 @@
   font-weight: 400;
   text-transform: uppercase;
   padding-bottom: 0.125em;
+  cursor: pointer;
 }
 
 .nav-links:hover {

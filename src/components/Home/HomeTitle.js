@@ -5,7 +5,7 @@ const HomeTitle = () => {
   return (
     <div className="content">
       <div className="title-container">
-        <h1 className="title">Your awesome traffic permit consultant.</h1>
+        <h1 className="home-title">Your awesome traffic permit consultant.</h1>
       </div>
     </div>
   );

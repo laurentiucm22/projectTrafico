@@ -15,8 +15,10 @@ const AboutImg = () => {
       <div className="col-two">
         <img
           data-aos="fade-left"
-          data-aos-duration="1700"
+          data-aos-duration="2000"
+          data-aos-delay="300"
           src={IllustrationOne}
+          className="first-img"
         />
       </div>
     </div>

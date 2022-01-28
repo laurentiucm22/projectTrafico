@@ -11,10 +11,11 @@ const HowToImg = () => {
   }, []);
 
   return (
-    <div className="img-container">
+    <div className="img-container" id="how-to">
       <img
         data-aos="fade-right"
         data-aos-duration="2000"
+        data-aos-delay="300"
         src={IllustrationTwo}
         className="second-img"
       />

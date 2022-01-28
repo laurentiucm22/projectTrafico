@@ -3,7 +3,7 @@
   padding-top: 8em;
 }
 
-.title {
+.home-title {
   font-family: var(--ff-dm);
   color: var(--clr-primary);
   font-size: 6.25rem;
@@ -11,8 +11,39 @@
   line-height: 100%;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
+  .title-container {
+    width: 70%;
+    padding-top: 3em;
+  }
+}
+@media (max-width: 1300px) {
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .title-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1100px) {
   .title-container {
     width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .content {
+    width: 90%;
+  }
+  .home-title {
+    font-size: 4.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .home-title {
+    font-size: 3.3rem;
+    padding: 1em 0 1em 0;
   }
 }
