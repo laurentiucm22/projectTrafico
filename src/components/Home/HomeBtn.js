@@ -7,7 +7,7 @@ const HomeBtn = () => {
     <div className="content">
       <div className="btn-home">
         <div className="home-btn__container">
-          <a href="#about" className="home-btn">
+          <a href="#how-to" className="home-btn">
             Get started
             <CgArrowLongRight className="btn-arrow" />
           </a>

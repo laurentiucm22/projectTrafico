@@ -5,17 +5,17 @@ const Nav = () => {
   const MenuItems = [
     {
       title: "About",
-      url: "#",
+      url: "#about",
       clsName: "nav-links",
     },
     {
       title: "How To",
-      url: "#",
+      url: "#how-to",
       clsName: "nav-links",
     },
     {
       title: "FAQS",
-      url: "#",
+      url: "#faqs",
       clsName: "nav-links",
     },
   ];

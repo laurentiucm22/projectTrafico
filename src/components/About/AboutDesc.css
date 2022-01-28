@@ -2,7 +2,7 @@
   padding-top: 5em;
 }
 .about-title {
-  color: #ee4d47;
+  color: var(--clr-accent);
   font-size: 1.5rem;
   font-family: var(--ff-rubik);
   text-transform: uppercase;
