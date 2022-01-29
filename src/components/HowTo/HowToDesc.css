@@ -38,6 +38,9 @@
   }
 }
 @media (max-width: 600px) {
+  .content {
+    width: 80%;
+  }
   .row-description {
     width: 100%;
     font-size: 1em;

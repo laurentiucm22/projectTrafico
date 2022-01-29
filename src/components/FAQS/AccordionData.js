@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import AccordionBody from "./AccordionBody";
 
 const AccordionData = () => {
   const [accordionData, setAccordionData] = useState([]);
@@ -16,12 +15,27 @@ const AccordionData = () => {
     fetchData();
   }, []);
 
+  const [selected, setSelected] = useState(null);
+
+  const toggle = (item) => {
+    if (selected === item) {
+      return setSelected(null);
+    }
+    setSelected(item);
+  };
   return (
-    <div className="accordion-body content">
-      <AccordionBody items={accordionData} />
-      <button>
-        Add More <span>+</span>
-      </button>
+    <div>
+      {accordionData.map((item, index) => (
+        <div key={index}>
+          <h1 className="accordion-title" onClick={() => toggle(item)}>
+            {item.title}
+            <span className="acrd-span">{selected === item ? "-" : "+"}</span>
+          </h1>
+          <p className={selected === item ? "show" : "accordion-msg"}>
+            {item.Message}
+          </p>
+        </div>
+      ))}
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .car-container {
-  padding-top: 10em;
+  padding-top: 9.2em;
   padding-bottom: 3em;
   z-index: 1;
 }
@@ -30,6 +30,5 @@
   }
   .home-car__img {
     width: 70%;
-    background-color: green;
   }
 }
