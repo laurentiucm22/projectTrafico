@@ -1,5 +1,7 @@
 import React from "react";
 import FAQS from "../components/FAQS/FAQS";
+import FAQSAccordion from "../components/FAQS/FAQSAccordion";
+
 import FAQSDesc from "../components/FAQS/FAQSDesc";
 
 const FAQSPage = (props) => {
@@ -8,8 +10,8 @@ const FAQSPage = (props) => {
       <FAQSDesc
         pageTitles={props.item[2].pageTitles}
         message={props.item[2].message}
-        scdmessage={props.item[2].scdmessage}
       />
+      <FAQSAccordion />
     </FAQS>
   );
 };

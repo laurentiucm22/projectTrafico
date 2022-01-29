@@ -40,11 +40,17 @@
 
 @media (max-width: 600px) {
   .home-btn__container {
-    width: 100%;
     padding: 4em 0;
   }
   .home-btn {
-    width: 30%;
-    font-size: 0.5em;
+    font-size: 1em;
+  }
+}
+@media (max-width: 400px) {
+  .home-btn__container {
+    padding: 4em 0;
+  }
+  .home-btn {
+    font-size: 0.8em;
   }
 }

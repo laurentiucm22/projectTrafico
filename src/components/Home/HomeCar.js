@@ -16,6 +16,7 @@ const HomeCar = () => {
         <img
           data-aos="fade-right"
           data-aos-duration="1500"
+          data-aos-offset="200"
           src={Car}
           className="home-car__img"
         />

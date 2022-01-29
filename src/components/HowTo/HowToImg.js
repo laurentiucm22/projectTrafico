@@ -15,7 +15,7 @@ const HowToImg = () => {
       <img
         data-aos="fade-right"
         data-aos-duration="2000"
-        data-aos-delay="300"
+        data-aos-offset="300"
         src={IllustrationTwo}
         className="second-img"
       />

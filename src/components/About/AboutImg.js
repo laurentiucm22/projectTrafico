@@ -16,7 +16,7 @@ const AboutImg = () => {
         <img
           data-aos="fade-left"
           data-aos-duration="2000"
-          data-aos-delay="300"
+          data-aos-offset="200"
           src={IllustrationOne}
           className="first-img"
         />

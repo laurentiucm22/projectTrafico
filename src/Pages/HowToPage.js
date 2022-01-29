@@ -10,7 +10,6 @@ const HowToPage = (props) => {
       <HowToDesc
         pageTitles={props.item[1].pageTitles}
         message={props.item[1].message}
-        scdmessage={props.item[1].scdmessage}
       />
     </HowTo>
   );

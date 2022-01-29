@@ -1,13 +1,14 @@
 import React from "react";
 import "./FAQSDesc.css";
 import IllustrationThree from "../../images/Illustration-three.svg";
+import FAQSAccordion from "./FAQSAccordion";
+// <div className="accent-div">
+//   <div className="accent-div__right"></div>
+// </div>
 
 const FAQSDesc = (props) => {
   return (
     <div className="faqs-desc__container">
-      <div className="accent-div">
-        <div className="accent-div__right"></div>
-      </div>
       <div className="cols-container container">
         <div className="description-and__img content">
           <div className="col-one__faqs">

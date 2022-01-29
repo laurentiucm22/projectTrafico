@@ -19,8 +19,6 @@
 
 /* Description and Image containers */
 .cols-container {
-  position: absolute;
-  top: 0;
   display: flex;
   padding-top: 8em;
 }
@@ -69,6 +67,16 @@
   .faqs-description {
     width: 100%;
     font-size: 1.3rem;
+    line-height: 1.5em;
+  }
+}
+@media (max-width: 400px) {
+  .faqs-title {
+    font-size: 1.2rem;
+  }
+  .faqs-description {
+    width: 80%;
+    font-size: 1rem;
     line-height: 1.5em;
   }
 }
