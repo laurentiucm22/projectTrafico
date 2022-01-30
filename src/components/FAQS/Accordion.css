@@ -1,0 +1,95 @@
+/* Accordion Title and Message */
+.accordion {
+  display: flex;
+  flex-wrap: wrap;
+}
+.accordion-element {
+  flex-basis: 50%;
+  padding: 0.7em;
+}
+.accordion-title {
+  width: 100%;
+  padding: 1.4em;
+  font-family: var(--ff-rubik);
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--clr-grey);
+  background-color: rgba(254, 248, 245, 0.75);
+  border-radius: 5px;
+  box-shadow: 1px 0px 3px 1px hsla(2, 97%, 59%, 0.1);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.accordion-msg {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  font-family: var(--ff-rubik);
+  color: var(--clr-grey);
+}
+.show {
+  width: 100%;
+  padding: 1.5em 1.4em 2em 1.4em;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #fef8f5a4;
+  box-shadow: 0px 1px 7px 1px hsla(2, 97%, 59%, 0.1);
+  margin-top: 2px;
+  margin-bottom: 2em;
+  z-index: -1;
+  font-size: 1.125rem;
+}
+.acrd-span {
+  font-size: 1.5rem;
+  color: var(--clr-accent);
+}
+
+.accordion-wrap {
+  width: 70%;
+  padding-top: 141.7em;
+  background-color: #fdede8;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  border-top-left-radius: 19em;
+}
+
+@media (max-width: 900px) {
+  .acrd-col__one {
+    width: 100%;
+  }
+  .acrd-col__two {
+    display: none;
+  }
+  .show {
+    width: 100%;
+    font-size: 1rem;
+    /* padding: 1em 1.2em 1.3em 1.2em; */
+  }
+}
+@media (max-width: 600px) {
+  .accordion-title {
+    font-size: 0.8rem;
+  }
+  .show {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 400px) {
+  .accordion-title {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+  .accordion-msg {
+    width: 100%;
+  }
+  .show {
+    width: 100%;
+    font-size: 0.7rem;
+    padding: 1em 1.2em 1.3em 1.2em;
+  }
+}

@@ -5,7 +5,8 @@
 }
 
 .btn-container {
-  width: 49%;
+  width: 50%;
+  padding: 0.7em;
 }
 
 .load-btn {
@@ -14,7 +15,7 @@
   border-radius: 5px;
   outline: none;
   border: none;
-  background-color: #ed4d47a4;
+  background-color: #ed4d4762;
   color: var(--clr-accent);
   text-transform: uppercase;
   font-family: var(--ff-rubik);
@@ -24,6 +25,16 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+.load-btn:hover {
+  background-color: rgba(209, 97, 93, 0.6);
+  color: white;
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+.load-btn:active {
+  transform: translateY(2px);
 }
 .load-span {
   font-family: var(--ff-rubik);
@@ -31,4 +42,14 @@
   font-weight: 700;
   position: absolute;
   right: 1em;
+}
+@media (max-width: 600px) {
+  .load-span {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .load-btn {
+    font-size: 0.7rem;
+  }
 }

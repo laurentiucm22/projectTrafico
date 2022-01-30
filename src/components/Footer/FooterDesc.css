@@ -1,0 +1,77 @@
+.row-and-col__container {
+  position: relative;
+}
+.row-one__container {
+  background-color: red;
+}
+.row-one__content {
+  background-color: blue;
+  width: 100%;
+}
+.footer-img__container {
+  width: 100%;
+  position: relative;
+  padding-bottom: 3em;
+}
+.footer-vectore__one {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  width: 7%;
+}
+.footer-car {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 15%;
+}
+.footer-vectore__two {
+  position: absolute;
+  bottom: 0;
+  left: 9em;
+}
+/* Footer card */
+.card-container {
+  width: 100%;
+  background-color: green;
+}
+
+.card-footer {
+  width: 90%;
+  height: 60vh;
+  background-color: #0f264c;
+  border-top-right-radius: 8rem;
+}
+.footer-col__container {
+  background-color: violet;
+  display: flex;
+  gap: 2em;
+}
+.footer-desc {
+  display: flex;
+  padding-top: 4em;
+}
+.footer-span {
+  width: 1.3em;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #ed4d47;
+}
+.footer-p {
+  width: 50%;
+  font-family: var(--ff-rubik);
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--clr-primary);
+  padding: 0.8em;
+}
+.col_two-container {
+  width: 80%;
+  background-color: blueviolet;
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

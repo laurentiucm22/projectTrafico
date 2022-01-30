@@ -5,6 +5,7 @@ import FAQSPage from "./Pages/FAQSPage";
 import HomePage from "./Pages/HomePage";
 import HowToPage from "./Pages/HowToPage";
 import { info } from "./components/info";
+import FooterPage from "./Pages/FooterPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutPage item={info} />
       <HowToPage item={info} />
       <FAQSPage item={info} />
+      <FooterPage item={info} />
     </div>
   );
 }

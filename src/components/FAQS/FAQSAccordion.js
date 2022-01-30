@@ -1,19 +1,11 @@
 import React from "react";
-import AccordionBody from "./AccordionBody";
 import "./FAQSAccordion.css";
-// <AccordionData />
+import Accordion from "./Accordion";
 
 const FAQSAccordion = () => {
   return (
     <div className="accordian-container container">
-      <AccordionBody />
-      <div className="btn-holder content">
-        <div className="btn-container">
-          <button className="load-btn">
-            Load More <span className="load-span">+</span>
-          </button>
-        </div>
-      </div>
+      <Accordion />
     </div>
   );
 };
