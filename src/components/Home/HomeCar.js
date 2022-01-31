@@ -17,6 +17,7 @@ const HomeCar = () => {
           data-aos="fade-right"
           data-aos-duration="1500"
           data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
           src={Car}
           className="home-car__img"
         />

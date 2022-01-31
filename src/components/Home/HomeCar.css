@@ -10,9 +10,10 @@
 @media (max-width: 1100px) {
   .car-container {
     width: 100%;
+    padding-top: 0em;
   }
   .home-car__img {
-    width: 40%;
+    width: 35%;
   }
 }
 @media (max-width: 600px) {

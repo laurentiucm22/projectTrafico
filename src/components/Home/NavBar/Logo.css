@@ -27,3 +27,12 @@
     padding-top: 0;
   }
 }
+@media (max-width: 300px) {
+  .logo-title {
+    font-size: 1.5rem;
+  }
+  .rectangle-up {
+    position: relative;
+    bottom: 12px;
+  }
+}

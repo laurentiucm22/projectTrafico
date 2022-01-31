@@ -8,11 +8,13 @@
   height: 100%;
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  z-index: -1;
 }
 
 .accent-div__right {
   width: 70%;
-  padding-top: 100em;
+  padding-top: 60em;
   background-color: #fdede8;
   border-top-left-radius: 10em;
 }
@@ -45,7 +47,11 @@
   font-weight: 400;
   max-width: 500px;
 }
-
+@media (max-width: 1300px) {
+  .faqs-description {
+    max-width: 1000px;
+  }
+}
 @media (max-width: 1100px) {
   .description-and__img {
     flex-direction: column;
@@ -63,14 +69,22 @@
     width: 100%;
   }
 }
+@media (max-width: 850px) {
+  .cols-container {
+    padding-top: 0em;
+  }
+}
 @media (max-width: 600px) {
   .faqs-description {
-    width: 100%;
+    width: 60%;
     font-size: 1.3rem;
     line-height: 1.5em;
   }
+  .third-img {
+    padding-bottom: 2em;
+  }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .faqs-title {
     font-size: 1.2rem;
   }

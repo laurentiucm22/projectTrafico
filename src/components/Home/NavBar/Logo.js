@@ -1,6 +1,6 @@
 import React from "react";
 import Rectangle15 from "../../../images/Rectangle15.png";
-import Rectangle16 from "../../../images/Rectangle15.png";
+import Rectangle16 from "../../../images/Rectangle16.png";
 import "./Logo.css";
 
 const Logo = () => {

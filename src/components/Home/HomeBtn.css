@@ -29,12 +29,22 @@
 }
 @media (max-width: 1600px) {
   .home-btn__container {
-    padding: 3em 0 0em 0;
+    padding-top: 3em;
   }
 }
 @media (max-width: 1300px) {
   .home-btn__container {
     padding-top: 2em;
+  }
+}
+@media (max-width: 1100px) {
+  .home-btn__container {
+    padding-bottom: 4.4em;
+  }
+}
+@media (max-width: 1000px) {
+  .home-btn__container {
+    padding-bottom: 8em;
   }
 }
 
@@ -52,5 +62,10 @@
   }
   .home-btn {
     font-size: 0.8em;
+  }
+}
+@media (max-width: 300px) {
+  .home-btn__container {
+    padding: 4em 0 6em 0;
   }
 }

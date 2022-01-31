@@ -17,10 +17,4 @@ export const info = [
     message: "Questions and Answers on Professional Traffic Permits:",
     scdmessage: "",
   },
-  {
-    pageTitles: "",
-    message:
-      "We provide traffic management consultants so you get started quickly, contact us for a quote today!",
-    footerButton: "Get Started",
-  },
 ];

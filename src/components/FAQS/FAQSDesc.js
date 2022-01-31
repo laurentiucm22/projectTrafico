@@ -2,9 +2,6 @@ import React from "react";
 import "./FAQSDesc.css";
 import IllustrationThree from "../../images/Illustration-three.svg";
 import FAQSAccordion from "./FAQSAccordion";
-// <div className="accent-div">
-//   <div className="accent-div__right"></div>
-// </div>
 
 const FAQSDesc = (props) => {
   return (
@@ -21,6 +18,9 @@ const FAQSDesc = (props) => {
             <img src={IllustrationThree} className="third-img" />
           </div>
         </div>
+      </div>
+      <div className="accent-div">
+        <div className="accent-div__right"></div>
       </div>
     </div>
   );

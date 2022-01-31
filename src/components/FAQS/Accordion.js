@@ -24,7 +24,7 @@ const AccordionBody = () => {
   };
 
   return (
-    <div>
+    <div class="accordion-box">
       <div className="accordion content">
         {accordionData.slice(0, maxRange).map((accordionElement, index) => (
           <AccordionElement data={accordionElement} key={index} />

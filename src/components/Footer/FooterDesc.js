@@ -11,10 +11,12 @@ import FaceBook from "./f.svg";
 import Twitter from "./t.svg";
 import Instagram from "./i.svg";
 
-const FooterDesc = () => {
+const FooterDesc = (props) => {
   const faceBook = "https://facebook.com";
   const twitter = "https://twitter.com";
   const instagram = "https://instagram.com";
+  const quoteMessage =
+    "We provide traffic management consultants so you get started quickly, contact us for a quote today!";
 
   useEffect(() => {
     AOS.init();
@@ -29,8 +31,7 @@ const FooterDesc = () => {
           <img
             className="footer-car"
             data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-offset="200"
+            data-aos-duration="2500"
             src={FooterCar}
           />
           <img className="footer-vectore__two" src={VectorTwo} />
@@ -41,10 +42,7 @@ const FooterDesc = () => {
               <div className="col-one_container">
                 <div className="footer-desc">
                   <span className="footer-span"></span>
-                  <p className="footer-p">
-                    We provide traffic management consultants so you get started
-                    quickly, contact us for a quote today!
-                  </p>
+                  <p className="footer-p">{quoteMessage}</p>
                 </div>
               </div>
               <FooterForm />

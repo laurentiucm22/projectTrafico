@@ -2,3 +2,10 @@
   width: 100%;
   padding-top: 16em;
 }
+
+@media (max-width: 850px) {
+  .footer {
+    width: 100%;
+    padding-top: 10em;
+  }
+}
