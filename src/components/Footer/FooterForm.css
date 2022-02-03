@@ -48,6 +48,7 @@
   border: none;
   outline: none;
   margin-top: 1.6em;
+  cursor: pointer;
 }
 @media (max-width: 1300px) {
   .footer-form {
