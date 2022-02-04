@@ -23,6 +23,7 @@
 .cols-container {
   display: flex;
   padding-top: 8em;
+  padding-bottom: 6em;
 }
 .description-and__img {
   display: flex;

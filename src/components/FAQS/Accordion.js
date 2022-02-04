@@ -18,13 +18,15 @@ const AccordionBody = () => {
   }, []);
 
   const [maxRange, setMaxRange] = useState(10);
+  const [removeBtn, setRemoveBtn] = useState(false);
 
   const handleClick = () => {
     setMaxRange((prevMaxRange) => prevMaxRange + 4);
+    setRemoveBtn((prev) => !prev);
   };
 
   return (
-    <div class="accordion-box">
+    <div className="accordion-box">
       <div className="accordion content">
         {accordionData.slice(0, maxRange).map((accordionElement, index) => (
           <AccordionElement data={accordionElement} key={index} />
@@ -32,7 +34,10 @@ const AccordionBody = () => {
       </div>
       <div className="btn-holder content">
         <div className="btn-container">
-          <button className="load-btn" onClick={handleClick}>
+          <button
+            className={removeBtn ? "remove-btn" : "load-btn"}
+            onClick={handleClick}
+          >
             Load More <span className="load-span">+</span>
           </button>
         </div>

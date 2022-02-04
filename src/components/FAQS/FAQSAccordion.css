@@ -43,6 +43,26 @@
   position: absolute;
   right: 1em;
 }
+
+.remove-btn {
+  width: 100%;
+  padding: 1.2em;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgba(237, 77, 71, 0.1);
+  color: rgba(64, 43, 43, 0.2);
+  text-transform: uppercase;
+  font-family: var(--ff-rubik);
+  font-size: 1.125rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: none;
+  pointer-events: none;
+}
 @media (max-width: 600px) {
   .load-span {
     display: none;
