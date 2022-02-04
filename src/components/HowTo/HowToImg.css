@@ -27,3 +27,8 @@
     padding-top: 2em;
   }
 }
+@media (max-width: 400px) {
+  .second-img {
+    padding-top: 0em;
+  }
+}

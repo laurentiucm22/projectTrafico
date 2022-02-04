@@ -160,6 +160,9 @@
     width: 80%;
     font-size: 1.3rem;
   }
+  .social-media > * {
+    padding-left: 0.6em;
+  }
 }
 @media (max-width: 400px) {
   .footer-p {

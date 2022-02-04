@@ -50,7 +50,7 @@
 
 @media (max-width: 600px) {
   .home-btn__container {
-    padding: 4em 0;
+    padding: 4em 0 5em;
   }
   .home-btn {
     font-size: 1em;
@@ -58,7 +58,7 @@
 }
 @media (max-width: 400px) {
   .home-btn__container {
-    padding: 4em 0;
+    padding: 7em 0;
   }
   .home-btn {
     font-size: 0.8em;
