@@ -98,4 +98,10 @@
     font-size: 1rem;
     line-height: 1.5em;
   }
+  .col-two__faqs {
+    width: 100%;
+  }
+  .third-img {
+    width: 100%;
+  }
 }
