@@ -36,7 +36,7 @@ const MobileNav = () => {
           </li>
           <li className="mobile-nav__items">
             <a
-              href="#about"
+              href="#how-to"
               className="mobile-nav__links"
               value={mobileLinks}
               onClick={linkClickHandler}
@@ -46,7 +46,7 @@ const MobileNav = () => {
           </li>
           <li className="mobile-nav__items">
             <a
-              href="#about"
+              href="#faqs"
               className="mobile-nav__links"
               value={mobileLinks}
               onClick={linkClickHandler}
