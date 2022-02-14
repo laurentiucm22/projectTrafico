@@ -8,7 +8,7 @@
 }
 
 .col-unu {
-  width: 100%;
+  width: 80%;
   align-self: center;
 }
 .row-description {
@@ -48,7 +48,7 @@
   }
   .row-description {
     font-size: 0.8rem;
-    line-height: 2.5em;
+    line-height: 2.3em;
   }
 }
 @media (max-width: 300px) {
